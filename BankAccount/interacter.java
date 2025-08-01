@@ -30,9 +30,7 @@ public class interacter {
                 switch(state) {
 
                     case 0:
-                        System.out.println("Potato");
                         user.display();
-                        System.out.println("Potato");
                         String request = scanner.nextLine();
 
                         switch(request) {
